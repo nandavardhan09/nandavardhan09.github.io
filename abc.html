@@ -1,12 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-xhO7dUR2UQfaM5SjIddk+LZ8WdS3W2WbRB3SFr8jCQVwFdacOzpIvA3MugC5+8Rd7wZ6ctQqItf6dErD/35WcA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>A Fitness Revolution!</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>A Fitness Revolution!!</title>
     <style>
         body {
             background-image: url("1129018.jpg");
@@ -69,14 +69,65 @@
         .footer p {
             margin-bottom: 0;
         }
+
+        /* Hide toggle button by default and show on smaller screens */
+        .navbar-toggler {
+            display: none; /* Initially hide the toggle button */
+        }
+
+        @media (max-width: 992px) {
+            .navbar-toggler {
+                display: block; /* Display the toggle button on smaller screens */
+                color:white;
+                background-color:white;
+            }
+        }
+
+        /* Custom Font and Text Style */
+        .diezt-font {
+            font-family: '𝘋𝘐𝘌𝘛', sans-serif;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #28a745; /* Green color */
+        }
+        .navbar-toggler {
+    color: white;
+    background-color: green; /* Dark background color */
+    border: none;
+}
+
+
+
+.navbar-toggler:focus {
+    outline: none; /* Remove focus outline */
+}
+
+.navbar-toggler-icon {
+    width: 1.5em; /* Adjust size */
+    height: 1.5em; /* Adjust size */
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-xhO7dUR2UQfaM5SjIddk+LZ8WdS3W2WbRB3SFr8jCQVwFdacOzpIvA3MugC5+8Rd7wZ6ctQqItf6dErD/35WcA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#">🅱-🅵🅸🆃</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <span class="navbar-toggler-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 6h22M4 15h22M4 24h22"></path>
+        </svg>
+    </span>
+</button>
+
+
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -99,28 +150,27 @@
     </nav>
     <div class="container">
         <div class="jumbotron">
-            <h1 class="display-4">𝘠𝘖𝘜 𝘈𝘙𝘌 𝘚𝘛𝘙𝘖𝘕𝘎𝘌𝘙</h1>
-            <p class="lead">𝘛𝘏𝘈𝘕 𝘠𝘖𝘜 𝘛𝘏𝘐𝘕𝘒</p>
+            <h1 class="display-4 diezt-font">STRONGER EVERY DAY !</h1>
+            <p class="lead">Transform your body, mind, and spirit with our comprehensive fitness resources.</p>
+            <a href="#section-bmi" class="btn btn-custom">Explore BMI Calculator</a>
         </div>
-        <div class="section-content">
+        <section id="section-bmi" class="section-content">
             <h3 class="section-heading">What is BMI?</h3>
-            <p>Body Mass Index (BMI) is a person's weight in kilograms (or pounds) divided by the square of height in meters (or feet). A high BMI can indicate high body fatness. BMI screens for weight categories that may lead to health problems, but it does not diagnose the body fatness or health of an individual.</p>
+            <p>Body Mass Index (BMI) is a measure of body fat based on height and weight. It helps assess health risks associated with weight categories.</p>
             <a href="bmi.html" class="btn btn-custom">Calculate your BMI</a>
-        </div>
-        <div class="section-content">
-            <h3 class="section-heading">What is YOGA?</h3>
-            <p>Yoga is an ancient practice that involves physical poses, concentration, and deep breathing. A regular yoga practice can promote endurance, strength, calmness, flexibility, and well-being. Yoga is now a popular form of exercise around the world.</p>
-            <a href="contact.html" class="btn btn-custom">Explore YOGA</a>
-        </div>
-        <div class="section-content">
-            <h3 class="section-heading">Physical Fitness</h3>
-            <p>Physical fitness involves the performance of the heart and lungs, and the muscles of the body. And, since what we do with our bodies also affects what we can do with our minds, fitness influences to some degree qualities such as mental alertness and emotional stability.</p>
-            <a href="exercise.html" class="btn btn-custom">Fitness Workouts</a>
-        </div>
+        </section>
+        <section class="section-content">
+            <h3 class="section-heading">What is Yoga?</h3>
+            <p>Discover the ancient practice of yoga, known for enhancing flexibility, strength, and mental well-being.</p>
+            <a href="contact.html" class="btn btn-custom">Explore Yoga</a>
+        </section>
+        <section class="section-content">
+            <h3 class="section-heading">Fitness Workouts</h3>
+            <p>Explore a variety of fitness workouts designed to boost cardiovascular health, strength, and endurance.</p>
+            <a href="exercise.html" class="btn btn-custom">Find Your Workout</a>
+        </section>
     </div>
-    <footer class="footer">
-        <p>&copy; 2024 A Fitness Revolution. All rights reserved.</p>
-    </footer>
+  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
